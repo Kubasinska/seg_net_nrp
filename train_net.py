@@ -29,7 +29,7 @@ def main():
             'mots': r'D:\DL\datasets\kitti\mots',
             'nrp': r'D:\DL\datasets\nrp\training_room',
             'handover': r'D:\DL\datasets\nrp\handover',
-            'multi_shelf': r'D:\DL\datasets\nrp\multi_shelf',
+            'multi_shelf': r'/workspace/dataset/multi_shelf',
             'multi_small': r'D:\DL\datasets\nrp\multi_small',
             'bmw': r'D:\DL\datasets\nrp\bmw'}}
     dataloader_fn = {'mots': get_mots_dataloaders,  # TODO: either code them or make only one file loader

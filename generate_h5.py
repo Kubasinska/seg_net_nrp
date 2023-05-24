@@ -4,8 +4,9 @@ import h5py
 import matplotlib.pyplot as plt
 from PIL import Image
 
-dataset_dir = r'D:\DL\datasets\nrp'
-dataset_type = 'multi_small'  # 'multi_small'; 'multi_shelf'
+dataset_dir = '/workspace/dataset'
+dataset_type = 'multi_shelf'  # 'multi_small'; 'multi_shelf'
+
 train_path = os.path.join(dataset_dir, dataset_type, 'train.hdf5')
 valid_path = os.path.join(dataset_dir, dataset_type, 'valid.hdf5')
 sample_dir = os.path.join(dataset_dir, dataset_type, 'camera_images')
